@@ -1,0 +1,16 @@
+site_name: SagerNet
+site_url: https://sagernet.org/
+repo_url: https://github.com/SagerNet/SagerNet
+edit_uri: ""
+repo_name: SagerNet
+site_description: The universal proxy toolchain for Android
+site_author: nekohasekai
+copyright: CC BY-SA 4.0
+theme:
+  name: material
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.ico
+nav:
+  - Introduction: index.md
+  - Download: download.md
+  - Configuration: configuration.md
