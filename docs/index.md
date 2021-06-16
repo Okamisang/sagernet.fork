@@ -6,6 +6,12 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.1-rc23
+
+* Night mode support
+* Tcp keep alive interval option now applied for shadowsocks-rust (v1.11.1)
+* Bug fixes
+
 #### 0.1-rc22
 
 * Custom config support, read [Configuration](https://sagernet.org/configuration/) for usage
