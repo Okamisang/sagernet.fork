@@ -14,3 +14,5 @@ nav:
   - Introduction: index.md
   - Download: download.md
   - Configuration: configuration.md
+  - Group: group.md
+  - Plugin: plugin.md

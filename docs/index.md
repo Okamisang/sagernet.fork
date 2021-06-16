@@ -1,39 +1,69 @@
 # SagerNet
 
-### Protocols
+The universal proxy toolchain for Android, written in Kotlin.
 
-The application is designed to be used whenever possible.
+[![](https://count.getloli.com/get/@nekohasekai)](https://github.com/SagerNet/SagerNet)
 
-#### Proxy
+### Changelog
 
-* SOCKS
-* HTTP(S)
-* Shadowsocks
-* ShadowsocksR
-* VMess
-* VLESS
-* Trojan
-* VLESS / Trojan + XTLS ( xtls-plugin )
-* Trojan-Go ( trojan-go-plugin )
-* NaïveProxy ( naive-plugin )
+#### 0.1-rc22
 
-#### Subscription
+* Custom config support, read [Configuration](https://sagernet.org/configuration/) for usage
+* `Early Data Header Name` option for V2Ray WebSocket settings
+* Moved Xray related parts to the new fork with xray-core: [AnXray](https://t.me/AnXray)
+* Bug fixes
 
-* Universal base64 format
-* Shadowsocks SIP008
-* Just My Socks' proprietary format
-* Clash
+#### 0.1-rc21
 
-#### Features
+* Fixed UDP connection in ShadowsocksR profiles
+* Local response to ICMP PING requests (thanks [@rprx](https://github.com/rprx))
+* Improved chain settings
 
-* Full basic features
-* V2Ray WebSocket browser forwarding
-* Option to change the notification update interval
-* A Chinese apps scanner (based on dex classpath scanning, so it may be slower)
-* Proxy chain
-* Advanced routing with outbound profile selection support
+#### 0.1-rc20
 
-#### Tips
+* Bug fixes
 
-* Proxy list can be dragged by holding the progress bar
-* The Chinese apps scanner will only scan system apps if "Show system apps" is checked
+#### 0.1-rc19
+
+* Reverse proxy support
+* Certificate options for V2Ray TLS profiles
+* TCP DNS support (v2ray-core 4.40.0)
+* Bug fixes
+
+#### 0.1-rc17
+
+* [New Brook link](https://github.com/txthinking/brook/issues/811) support
+* Fixed connection test on Android L-M devices
+* Minor fixes
+
+#### 0.1-rc16
+
+* Transparent proxy inbound support
+* Option to change connection test URL
+* UI Improves
+* Minor fixes
+
+#### 0.1-rc15
+
+* Minor fixes
+* Added SHA256 checksum in CI result page and GitHub release
+
+#### 0.1-rc14
+
+* Brook ( [txthinking/brook](https://github.com/txthinking/brook) ) support
+* Minor fixes
+
+#### 0.1-rc13
+
+* Bug fixes
+
+#### 0.1-rc12
+
+* PingTunnel ( [esrrhs/pingtunnel](https://github.com/esrrhs/pingtunnel) ) support
+* RelayBaton ( [iyouport-org/relaybaton](https://github.com/iyouport-org/relaybaton) ) support
+* Bug fixes
+
+#### 0.1-rc11
+
+* NaïveProxy ( [klzgrad/naiveproxy](https://github.com/klzgrad/naiveproxy) ) support
+* Bug fixes
