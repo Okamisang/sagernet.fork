@@ -6,6 +6,14 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.1-rc24
+
+* Fixed compatibility with Lineage's VPN Hotspot
+* Allow insecure option for v2ray and trojan profiles
+* More alert for insecure profiles
+* Custom config now available with Trojan-Go
+* Bug fixes
+
 #### 0.1-rc23
 
 * Night mode support

@@ -45,7 +45,7 @@ points of the chain.
 * relaybaton
 * Brook
 
-#### Custom config
+#### Custom config (V2Ray)
 
 When using a custom V2Ray configuration profile, the required inbounds will be automatically rewritten or added to ensure a basic experience.
 
@@ -79,3 +79,7 @@ To use Local DNS, you need a DNS inbound with tag `dns-in`
 ##### FakeDNS
 
 If you have `fakedns` configured in `$.dns.servers`, the rest will be automatically processed by SN.
+
+#### Custom config (Trojan-Go)
+
+Only the `local_port` item will be rewritten, and you should finish everything else
