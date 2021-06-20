@@ -6,6 +6,10 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.1-rc25
+
+* Bug fixes
+
 #### 0.1-rc24
 
 * Fixed compatibility with Lineage's VPN Hotspot

@@ -2,7 +2,7 @@
 
 Release | Vendor | Download
 ------- | ------ | ----
-0.1-rc24 | GitHub Release | [Release][app-release]
+0.1-rc25 | GitHub Release | [Release][app-release]
 - | Google Play | [SagerNet - Play Store][app-play]
 - | IzzyOnDroid (armeabi-v7a only) | [SagerNet - IzzyOnDroid][app-izzy]
 0.1-rc17 | F-Droid | [SagerNet - F-Droid][app-fdroid]
@@ -56,7 +56,7 @@ Release | Vendor | Download
 - | Google Play | [Brook Plugin - Play Store][brook-play]
 - | F-Droid | [Brook Plugin - F-Droid][brook-fdroid]
 
-[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.1-rc24
+[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.1-rc25
 [app-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet
 [app-izzy]: https://apt.izzysoft.de/fdroid/index/apk/io.nekohasekai.sagernet
 [app-fdroid]: https://f-droid.org/packages/io.nekohasekai.sagernet/
