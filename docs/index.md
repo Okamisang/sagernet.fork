@@ -2,7 +2,7 @@
 
 The universal proxy toolchain for Android, written in Kotlin.
 
-[![](https://count.getloli.com/get/@nekohasekai)](https://github.com/SagerNet/SagerNet)
+[![](https://count.getloli.com/get/@nekohasekai?theme=rule34)](https://github.com/SagerNet/SagerNet)
 
 ### Changelog
 
