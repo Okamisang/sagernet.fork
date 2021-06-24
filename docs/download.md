@@ -2,10 +2,10 @@
 
 Release | Vendor | Download
 ------- | ------ | ----
-0.1-rc27 | GitHub Release | [Release][app-release]
+0.2-rc01 | GitHub Release | [Release][app-release]
 - | Google Play | [SagerNet - Play Store][app-play]
 - | IzzyOnDroid (armeabi-v7a only) | [SagerNet - IzzyOnDroid][app-izzy]
-0.1-rc17 | F-Droid | [SagerNet - F-Droid][app-fdroid]
+0.1-rc17 (Build Pending) | F-Droid | [SagerNet - F-Droid][app-fdroid]
 
 ---
 
@@ -15,7 +15,7 @@ Release | Vendor | Download
 ------- | ------ | ----
 0.10.4 | GitHub Release | [Release][trojan-go-release]
 - | Google Play | [Trojan-Go Plugin - Play Store][trojan-go-play]
-0.10.3 | F-Droid | [Trojan-Go Plugin - F-Droid][trojan-go-fdroid]
+- | F-Droid | [Trojan-Go Plugin - F-Droid][trojan-go-fdroid]
 
 ---
 
@@ -56,7 +56,7 @@ Release | Vendor | Download
 - | Google Play | [Brook Plugin - Play Store][brook-play]
 - | F-Droid | [Brook Plugin - F-Droid][brook-fdroid]
 
-[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.1-rc27
+[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.2-rc01
 [app-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet
 [app-izzy]: https://apt.izzysoft.de/fdroid/index/apk/io.nekohasekai.sagernet
 [app-fdroid]: https://f-droid.org/packages/io.nekohasekai.sagernet/

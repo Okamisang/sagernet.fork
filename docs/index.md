@@ -6,6 +6,10 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.1-rc28
+
+* Bug fixes
+
 #### 0.1-rc27
 
 * V2Ray rule assets manager
