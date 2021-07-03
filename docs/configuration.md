@@ -91,6 +91,7 @@ points of the chain.
 Balancer selects the appropriate configuration for traffic forwarding from the selected configuration/group
 
 * Connection test status will be displayed on configurations that has been used in balancers
+* Click on the "Unavailable" text to see the error message
 
 #### Mode
 
