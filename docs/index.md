@@ -6,7 +6,16 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
-#### 0.1-rc28
+#### 0.2-rc02
+
+* Configuration export
+* Balancer support
+* More options when exporting links
+* Optimized proxy start and stop
+* Fixed PingTunnel plugin (now you need ROOT permission to start it)
+* Other fixes
+
+#### 0.2-rc01
 
 * Bug fixes
 

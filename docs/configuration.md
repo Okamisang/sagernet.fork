@@ -30,28 +30,15 @@ What you see is what you get, with some exceptions:
 * Profiles using v2ray-core server with "?ed=..." path is unsupported due to the need to be compatible with Xray-style
   WebSocket max early data
 
-#### Proxy chain
-
-* Chain implemented by the client, so there is some performance loss
-* Traffic order is from top to bottom
-* Profiles in the list can also be dragged by pressing and holding, and removed by swiping left
-
-##### Entrance only
-
-The following proxy using golang and has no support for setting a front proxy, so it cannot be used for non-starting
-points of the chain.
-
-* Ping Tunnel
-* relaybaton
-* Brook
-
 #### Custom config (V2Ray)
 
-When using a custom V2Ray configuration profile, the required inbounds will be automatically rewritten or added to ensure a basic experience.
+When using a custom V2Ray configuration profile, the required inbounds will be automatically rewritten or added to
+ensure a basic experience.
 
 ##### Socks / HTTP inbound
 
-When the `Socks` / `HTTP` inbound is required, it will be automatically added even if it is not filled in the configuration.
+When the `Socks` / `HTTP` inbound is required, it will be automatically added even if it is not filled in the
+configuration.
 
 In the following cases, only address and port will be overwritten:
 
@@ -83,3 +70,34 @@ If you have `fakedns` configured in `$.dns.servers`, the rest will be automatica
 #### Custom config (Trojan-Go)
 
 Only the `local_port` item will be rewritten, and you should finish everything else
+
+#### Proxy chain
+
+* Chain implemented by the client, so there is some performance loss
+* Traffic order is from top to bottom
+* Profiles in the list can also be dragged by pressing and holding, and removed by swiping left
+
+##### Entrance only
+
+The following proxy using golang and has no support for setting a front proxy, so it cannot be used for non-starting
+points of the chain.
+
+* Ping Tunnel
+* relaybaton
+* Brook
+
+#### Balancer
+
+Balancer selects the appropriate configuration for traffic forwarding from the selected configuration/group
+
+* Connection test status will be displayed on configurations that has been used in balancers
+
+#### Mode
+
+`List` requires you to add configurations manually
+`Group` can use a whole group
+
+##### Strategy
+
+`Random` forwards each connection to a random outbound station
+`Ping` forwards traffics to the fastest outbound
