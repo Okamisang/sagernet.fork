@@ -6,6 +6,10 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.2-rc03
+
+* Bug fixes
+
 #### 0.2-rc02
 
 * Configuration export
