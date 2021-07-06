@@ -6,6 +6,12 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.2-rc04
+
+* TCPing connection test
+* Option to always show profile address
+* Fixes and Improvements
+
 #### 0.2-rc03
 
 * Bug fixes

@@ -15,4 +15,5 @@ nav:
   - Download: download.md
   - Configuration: configuration.md
   - Group: group.md
+  - Route: route.md
   - Plugin: plugin.md
