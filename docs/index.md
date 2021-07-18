@@ -6,6 +6,14 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.3-beta01
+
+* Experimental traffic forwarder (alternative to tun2socks, with better performance and more options)
+* Added ICMP Ping / URL Test
+* Option to reorder profiles by delay
+* Option to switch method for bypass LAN
+* Bug fixes
+
 #### 0.2-rc05
 
 * Bug fixes
