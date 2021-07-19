@@ -6,9 +6,20 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+### 0.3-beta02
+
+* Chain support for all protocols ~~except PingTunnel~~
+* DNS hijacking option (Traffic forwarder)
+* Protocol provider setting for Trojan and Shadowsocks AEAD profiles
+* Option to append HTTP Proxy to VPN (Android 10+)
+* Use 1.0.0.1 as default dns [#180](https://github.com/SagerNet/SagerNet/issues/180)
+* Fix routing rule not applied for TCP DNS (v2ray-core master)
+* Fixes and Improvements
+
 #### 0.3-beta01
 
-* Experimental traffic forwarder (alternative to tun2socks, with better performance and more options)
+* Experimental traffic forwarder (alternative to tun2socks, with better performance and more
+  options)
 * Added ICMP Ping / URL Test
 * Option to reorder profiles by delay
 * Option to switch method for bypass LAN
