@@ -6,6 +6,16 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+### 0.3-beta03
+
+Warning: It's an incompatible update, backup your profiles and subscriptions.
+
+* New group structure and settings (read [Group](https://sagernet.org/group/))
+* Import/Export subscription from/to link (external or qrcode)
+* Import profile from external link
+* Added conscrypt to provides consistent TLS 1.3 compatibility
+* Updated shadowsocks-rust to v1.11.2
+
 ### 0.3-beta02
 
 * Chain support for all protocols ~~except PingTunnel~~
