@@ -8,8 +8,8 @@ What you see is what you get, with some exceptions:
 
 #### Socks5 / HTTP
 
-* The TLS and SNI options are designed to be compatible with some bad clash profiles, I don't know what the point of
-  this is
+* The TLS and SNI options are designed to be compatible with some bad clash profiles, I don't know
+  what the point of this is
 
 #### Shadowsocks
 
@@ -23,49 +23,31 @@ What you see is what you get, with some exceptions:
 
 #### VMESS / VLESS
 
-* VMESS MD5 authentication (non-AEAD) has been deprecated, and for such profiles with alterId greater than 0, the
-  old-style link will be used when sharing
+* VMESS MD5 authentication (non-AEAD) has been deprecated, and for such profiles with alterId
+  greater than 0, the old-style link will be used when sharing
 * For list options like ALPN, the format is one per line
-* WebSocket browser forwarding does not support custom domain names, please keep the address and domain name the same
-* Profiles using v2ray-core server with "?ed=..." path is unsupported due to the need to be compatible with Xray-style
-  WebSocket max early data
+* WebSocket browser forwarding does not support custom domain names, please keep the address and
+  domain name the same
+* Profiles using v2ray-core server with "?ed=..." path is unsupported due to the need to be
+  compatible with Xray-style WebSocket max early data
 
 #### Custom config (V2Ray)
 
-When using a custom V2Ray configuration profile, the required inbounds will be automatically rewritten or added to
-ensure a basic experience.
+When using a custom V2Ray configuration profile, the required inbounds will be automatically
+rewritten or added to be used as an external proxy.
 
-##### Socks / HTTP inbound
+##### Socks
 
-When the `Socks` / `HTTP` inbound is required, it will be automatically added even if it is not filled in the
-configuration.
-
-In the following cases, only address and port will be overwritten:
-
-* A `Socks` / `HTTP` inbound exists with tag `socks` / `http`
-* Only one `Socks` / `HTTP` inbound exists
-
-##### Transproxy inbound
-
-When the `Transproxy` inbound is required, it will be automatically added even if it is not filled in the configuration.
+The `Socks` inbound will be automatically added even if it is not filled in the configuration.
 
 In the following cases, only address and port will be overwritten:
 
-* A `Transproxy` inbound exists with tag `trans`
+* A `Socks` inbound exists with tag `socks`
+* Only one `Socks` inbound exists
 
-##### System DNS
+##### DNS
 
 By default, the IP entries in the configuration will be automatically filled in to the system DNS.
-
-##### Local DNS
-
-`Local DNS` is a term invented by v2rayNG, the correct term is `V2Ray-processed DNS (with TCP DNS / DoH etc. support)`.
-
-To use Local DNS, you need a DNS inbound with tag `dns-in`
-
-##### FakeDNS
-
-If you have `fakedns` configured in `$.dns.servers`, the rest will be automatically processed by SN.
 
 #### Custom config (Trojan-Go)
 
@@ -79,8 +61,8 @@ Only the `local_port` item will be rewritten, and you should finish everything e
 
 ##### Entrance only
 
-The following proxy using golang and has no support for setting a front proxy, so it cannot be used for non-starting
-points of the chain.
+The following proxy using golang and has no support for setting a front proxy, so it cannot be used
+for non-starting points of the chain.
 
 * Ping Tunnel
 * relaybaton
@@ -88,7 +70,8 @@ points of the chain.
 
 #### Balancer
 
-Balancer selects the appropriate configuration for traffic forwarding from the selected configuration/group
+Balancer selects the appropriate configuration for traffic forwarding from the selected
+configuration/group
 
 * Connection test status will be displayed on configurations that has been used in balancers
 * Click on the "Unavailable" text to see the error message
