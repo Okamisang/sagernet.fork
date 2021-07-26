@@ -2,9 +2,8 @@
 
 Release | Vendor | Download
 ------- | ------ | ----
-0.3-beta05 | GitHub Release | [Release][app-release]
+0.3-beta06 | GitHub Release | [Release][app-release]
 - | Google Play | [SagerNet - Play Store][app-play]
-- | IzzyOnDroid (armeabi-v7a only) | [SagerNet - IzzyOnDroid][app-izzy]
 0.2-rc01 | F-Droid | [SagerNet - F-Droid][app-fdroid]
 
 ---
@@ -23,7 +22,7 @@ Release | Vendor | Download
 
 Release | Vendor | Download
 ------- | ------ | ----
-91.0.4472.77-1 | GitHub Release | [Release][naive-release]
+92.0.4515.107-1 | GitHub Release | [Release][naive-release]
 - | Google Play | [NaïveProxy Plugin - Play Store][naive-play]
 - | F-Droid | [NaïveProxy Plugin - F-Droid][naive-fdroid]
 
@@ -56,16 +55,15 @@ Release | Vendor | Download
 - | Google Play | [Brook Plugin - Play Store][brook-play]
 - | F-Droid | [Brook Plugin - F-Droid][brook-fdroid]
 
-[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.3-beta05
+[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.3-beta06
 [app-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet
-[app-izzy]: https://apt.izzysoft.de/fdroid/index/apk/io.nekohasekai.sagernet
 [app-fdroid]: https://f-droid.org/packages/io.nekohasekai.sagernet/
 
 [trojan-go-release]: https://github.com/SagerNet/SagerNet/releases/tag/trojan-go-plugin-0.10.4
 [trojan-go-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet.plugin.trojan_go
 [trojan-go-fdroid]: https://f-droid.org/packages/io.nekohasekai.sagernet.plugin.trojan_go/
 
-[naive-release]: https://github.com/SagerNet/SagerNet/releases/tag/naive-plugin-91.0.4472.77-1
+[naive-release]: https://github.com/SagerNet/SagerNet/releases/tag/naive-plugin-92.0.4515.107-1
 [naive-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet.plugin.naive
 [naive-fdroid]: https://f-droid.org/packages/io.nekohasekai.sagernet.plugin.naive/
 
