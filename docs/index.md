@@ -6,49 +6,29 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
-### 0.3-beta06
+### 0.3-rc01
 
-* Fixes
-
-### 0.3-beta05
-
-* Application-based routing support
-* Fixes and Improvements
-
-### 0.3-beta04
-
-* Custom config support for routing
-* Improved dns settings
-* Fixes
-
-### 0.3-beta03
-
-Warning: It's an incompatible update, backup your profiles and subscriptions.
-
-* New group structure and settings (read [Group](https://sagernet.org/group/))
-* Import/Export subscription from/to link (external or qrcode)
-* Import profile from external link
-* Added conscrypt to provides consistent TLS 1.3 compatibility
-* Updated shadowsocks-rust to v1.11.2
-
-### 0.3-beta02
-
-* Chain support for all protocols ~~except PingTunnel~~
-* DNS hijacking option (Traffic forwarder)
-* Protocol provider setting for Trojan and Shadowsocks AEAD profiles
-* Option to append HTTP Proxy to VPN (Android 10+)
-* Use 1.0.0.1 as default dns [#180](https://github.com/SagerNet/SagerNet/issues/180)
-* Fix routing rule not applied for TCP DNS (v2ray-core master)
-* Fixes and Improvements
-
-#### 0.3-beta01
+Warning: It's an incompatible update, backup your profiles and subscriptions (Clearing data is recommended).
 
 * Experimental traffic forwarder (alternative to tun2socks, with better performance and more
   options)
 * Added ICMP Ping / URL Test
 * Option to reorder profiles by delay
 * Option to switch method for bypass LAN
-* Bug fixes
+* Chain support for almost all protocols
+* Protocol provider setting for Trojan and Shadowsocks AEAD profiles
+* Option to append HTTP Proxy to VPN (Android 10+)
+* Use 1.0.0.1 as default dns [#180](https://github.com/SagerNet/SagerNet/issues/180)
+* Fix routing rule not applied for TCP DNS (v2ray-core master)
+* New group structure and settings (read [Group](https://sagernet.org/group/))
+* Import/Export subscription from/to link (external or qrcode)
+* Import profile from external link
+* Added conscrypt to provides consistent TLS 1.3 compatibility
+* Custom config support for routing
+* Application-based routing support
+* Improved dns settings
+* Updated shadowsocks-rust to v1.11.2
+* Fixes and Improvements
 
 #### 0.2-rc05
 
