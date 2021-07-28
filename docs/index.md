@@ -6,6 +6,12 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.3-rc03
+
+* Epoll support for Native Forwarding
+* Fixes
+* New zh_CN [issue template](https://github.com/SagerNet/SagerNet/issues/new/choose)
+
 #### 0.3-rc02
 
 * Fixes
