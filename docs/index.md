@@ -6,6 +6,11 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.3-rc05
+
+* Fixes
+* Updated translations
+
 #### 0.3-rc04
 
 * Epoll support for Native Forwarding
