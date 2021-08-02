@@ -6,6 +6,12 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.3-rc06
+
+* Added [hysteria](https://github.com/HyNetwork/hysteria) support
+* Fixes
+* Updated translations
+
 #### 0.3-rc05
 
 * Fixes
