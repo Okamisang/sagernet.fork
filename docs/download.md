@@ -2,7 +2,7 @@
 
 Release | Vendor | Download
 ------- | ------ | ----
-0.3-rc06 | GitHub Release | [Release][app-release]
+0.3-rc07 | GitHub Release | [Release][app-release]
 - | Google Play | [SagerNet - Play Store][app-play]
 0.2-rc01 | F-Droid | [SagerNet - F-Droid][app-fdroid]
 
@@ -61,9 +61,9 @@ Release | Vendor | Download
 
 Release | Vendor | Download
 ------- | ------ | ----
-0.8.2 | GitHub Release | [Release][hysteria-release]
+0.8.3 | GitHub Release | [Release][hysteria-release]
 
-[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.3-rc06
+[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.3-rc07
 [app-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet
 [app-fdroid]: https://f-droid.org/packages/io.nekohasekai.sagernet/
 
@@ -86,4 +86,4 @@ Release | Vendor | Download
 [brook-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet.plugin.brook
 [brook-fdroid]: https://f-droid.org/packages/io.nekohasekai.sagernet.plugin.brook/
 
-[hysteria-release]: https://github.com/SagerNet/SagerNet/releases/tag/hysteria-plugin-0.8.2
+[hysteria-release]: https://github.com/SagerNet/SagerNet/releases/tag/hysteria-plugin-0.8.3
