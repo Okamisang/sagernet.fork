@@ -6,7 +6,7 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
-#### 0.3-rc10
+#### 0.3-rc11
 
 * VMess experiments support
 * Fixes
