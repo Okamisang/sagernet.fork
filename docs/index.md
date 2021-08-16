@@ -6,6 +6,12 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.4-beta01
+
+* New core library
+* Added golang based lwip tun2socks implementation
+* Added gvisor based tun2socks implementation
+
 #### 0.3-rc14
 
 * Fixes
