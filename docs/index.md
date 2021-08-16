@@ -6,6 +6,12 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.4-beta02
+
+* Added internal shadowsocks simple-obfs / v2ray plugin
+* Added snell support
+* Replaced shadowsocksr-libev with clash implementation
+
 #### 0.4-beta01
 
 * New core library
