@@ -6,6 +6,11 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.4-rc02
+
+* Refined tun implementation (gvisor based uid routing support)
+* [SagerConnect](https://github.com/SagerNet/SagerConnect) support
+
 #### 0.4-rc01
 
 * Fixes and Improvements
