@@ -6,6 +6,13 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.4-rc03
+
+* Refined tun implementation (tun direct to v2ray-core)
+* Refined icmp ping [implementation](https://github.com/SagerNet/libping)
+* Refined url test implementation
+* Fixes
+
 #### 0.4-rc02
 
 * Refined tun implementation (gvisor based uid routing support)
