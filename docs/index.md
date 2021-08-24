@@ -6,6 +6,11 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.4-rc06
+
+* Fixes
+* Full hysteria 0.8.5 support
+
 #### 0.4-rc05
 
 * Fixes
