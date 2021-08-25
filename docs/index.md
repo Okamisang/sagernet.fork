@@ -6,6 +6,13 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.4-rc07
+
+* Updated Shadowsocks(R) protocol list
+* Added plugin download assistant
+* Added group order setting (origin/by name/by delay)
+* Fixes and Improvements
+
 #### 0.4-rc06
 
 * Fixes
