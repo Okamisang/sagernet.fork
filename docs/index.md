@@ -6,6 +6,10 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.5-beta02
+
+* Fixes
+
 #### 0.5-beta01
 
 * Migrated to a [custom core](https://github.com/SagerNet/v2ray-core) to support improved routing
