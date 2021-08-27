@@ -6,6 +6,13 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.5-beta01
+
+* Migrated to a [custom core](https://github.com/SagerNet/v2ray-core) to support improved routing
+* Traffic statistics support, including real-time display and cumulative statistics
+* Foreground status based routing support
+* Fixes and Improvements
+
 #### 0.4-rc07
 
 * Updated Shadowsocks(R) protocol list
@@ -104,7 +111,8 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 #### 0.3-rc01
 
-Warning: It's an incompatible update, backup your profiles and subscriptions (Clearing data is recommended).
+Warning: It's an incompatible update, backup your profiles and subscriptions (Clearing data is
+recommended).
 
 * Experimental traffic forwarder (alternative to tun2socks, with better performance and more
   options)
