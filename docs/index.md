@@ -6,6 +6,12 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.5-beta03
+
+* Included shadowsocks xchacha20-ietf-poly1305 cipher in core
+* Included uTLS in core
+* Fixes and Improvements
+
 #### 0.5-beta02
 
 * Fixes
