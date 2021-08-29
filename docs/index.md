@@ -6,6 +6,13 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.5-beta04
+
+* Option to enable traffic statistics (disabled by default)
+* Fixes
+
+Note: According to user reports, this traffic statistics feature adds some power consumption, so an option is provided to choose from.
+
 #### 0.5-beta03
 
 * Included shadowsocks xchacha20-ietf-poly1305 cipher in core
