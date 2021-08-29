@@ -6,6 +6,10 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.5-rc01
+
+* Fixes and Improvements
+
 #### 0.5-beta04
 
 * Option to enable traffic statistics (disabled by default)
