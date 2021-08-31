@@ -6,6 +6,12 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.5-rc02
+
+* Refined route assets manager (download compressed resources)
+* Removed uTLS because it caused bugs and made no sense
+* Fixes and Improvements
+
 #### 0.5-rc01
 
 * Fixes and Improvements
