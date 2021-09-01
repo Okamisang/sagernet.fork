@@ -6,6 +6,11 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.5-rc03
+
+* SSH support
+* Fixes and Improvements
+
 #### 0.5-rc02
 
 * Refined route assets manager (download compressed resources)

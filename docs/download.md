@@ -2,7 +2,7 @@
 
 Release | Vendor | Download
 ------- | ------ | ----
-0.5-rc02 | GitHub Release | [Release][app-release]
+0.5-rc03 | GitHub Release | [Release][app-release]
 - | Google Play | [SagerNet - Play Store][app-play]
 0.2-rc01 | F-Droid | [SagerNet - F-Droid][app-fdroid]
 
@@ -63,7 +63,7 @@ Release | Vendor | Download
 ------- | ------ | ----
 0.8.5 | GitHub Release | [Release][hysteria-release]
 
-[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.5-rc02
+[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.5-rc03
 [app-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet
 [app-fdroid]: https://f-droid.org/packages/io.nekohasekai.sagernet/
 
