@@ -6,6 +6,12 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.5-rc05
+
+* Log viewer
+* Simple crash reporter
+* Fixes
+
 #### 0.5-rc04
 
 * Fixes
@@ -30,7 +36,8 @@ The universal proxy toolchain for Android, written in Kotlin.
 * Option to enable traffic statistics (disabled by default)
 * Fixes
 
-Note: According to user reports, this traffic statistics feature adds some power consumption, so an option is provided to choose from.
+Note: According to user reports, this traffic statistics feature adds some power consumption, so an
+option is provided to choose from.
 
 #### 0.5-beta03
 
