@@ -6,6 +6,12 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.5-rc06
+
+* Added shadowsocks-libev (for full shadowsocks support on android L)
+* DNS items starts with # will be ignored
+* Fixes and Improvements
+
 #### 0.5-rc05
 
 * Log viewer
