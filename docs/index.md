@@ -6,6 +6,13 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.5-rc09
+
+* WireGuard: multiple local address support (split by line)
+* WireGuard: parse multiple local address from config file
+* WireGuard: ipv6 support
+* Fixes
+
 #### 0.5-rc07
 
 * WireGuard support (needs wireguard-plugin)
