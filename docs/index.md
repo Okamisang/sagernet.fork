@@ -6,6 +6,12 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.5-rc07
+
+* WireGuard support (needs wireguard-plugin)
+* Improved balancer
+* Fixes and Improvements
+
 #### 0.5-rc06
 
 * Added shadowsocks-libev (for full shadowsocks support on android L)

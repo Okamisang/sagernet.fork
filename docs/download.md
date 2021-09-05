@@ -2,7 +2,7 @@
 
 Release | Vendor | Download
 ------- | ------ | ----
-0.5-rc06 | GitHub Release | [Release][app-release]
+0.5-rc07 | GitHub Release | [Release][app-release]
 - | Google Play | [SagerNet - Play Store][app-play]
 0.2-rc01 | F-Droid | [SagerNet - F-Droid][app-fdroid]
 
@@ -62,8 +62,17 @@ Release | Vendor | Download
 Release | Vendor | Download
 ------- | ------ | ----
 0.8.5 | GitHub Release | [Release][hysteria-release]
+- | Google Play | [Hysteria Plugin - Play Store][hysteria-play]
 
-[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.5-rc06
+---
+
+#### WireGuard Plugin
+
+Release | Vendor | Download
+------- | ------ | ----
+20210424 | GitHub Release | [Release][wireguard-release]
+
+[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.5-rc07
 [app-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet
 [app-fdroid]: https://f-droid.org/packages/io.nekohasekai.sagernet/
 
@@ -87,3 +96,6 @@ Release | Vendor | Download
 [brook-fdroid]: https://f-droid.org/packages/io.nekohasekai.sagernet.plugin.brook/
 
 [hysteria-release]: https://github.com/SagerNet/SagerNet/releases/tag/hysteria-plugin-0.8.5
+[hysteria-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet.plugin.hysteria
+
+[wireguard-release]: https://github.com/SagerNet/SagerNet/releases/tag/wireguard-plugin20210424
