@@ -6,6 +6,15 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.5-rc11
+
+* CloudFlare Warp WireGuard configuration generator
+* Fixes
+
+#### 0.5-rc10
+
+* Fixes
+
 #### 0.5-rc09
 
 * WireGuard: multiple local address support (split by line)
