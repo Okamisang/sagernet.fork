@@ -70,7 +70,8 @@ Release | Vendor | Download
 
 Release | Vendor | Download
 ------- | ------ | ----
-20210424-2 | GitHub Release | [Release][wireguard-release]
+20210424-3 | GitHub Release | [Release][wireguard-release]
+- | Google Play | [WireGuard Plugin - Play Store][wireguard-play]
 
 [app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.5-rc11
 [app-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet
@@ -98,4 +99,5 @@ Release | Vendor | Download
 [hysteria-release]: https://github.com/SagerNet/SagerNet/releases/tag/hysteria-plugin-0.8.5
 [hysteria-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet.plugin.hysteria
 
-[wireguard-release]: https://github.com/SagerNet/SagerNet/releases/tag/wireguard-plugin-20210424-2
+[wireguard-release]: https://github.com/SagerNet/SagerNet/releases/tag/wireguard-plugin-20210424-3
+[wireguard-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet.plugin.wireguard
