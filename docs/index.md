@@ -6,6 +6,10 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.5-rc13
+
+* Fixes
+
 #### 0.5-rc12
 
 * Tun2ray implementation based on LwIP is available (try if gVisor fails)

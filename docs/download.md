@@ -2,7 +2,7 @@
 
 Release | Vendor | Download
 ------- | ------ | ----
-0.5-rc12 | GitHub Release | [Release][app-release]
+0.5-rc13 | GitHub Release | [Release][app-release]
 - | Google Play | [SagerNet - Play Store][app-play]
 0.2-rc01 | F-Droid | [SagerNet - F-Droid][app-fdroid]
 
@@ -73,7 +73,7 @@ Release | Vendor | Download
 20210424-3 | GitHub Release | [Release][wireguard-release]
 - | Google Play | [WireGuard Plugin - Play Store][wireguard-play]
 
-[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.5-rc12
+[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.5-rc13
 [app-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet
 [app-fdroid]: https://f-droid.org/packages/io.nekohasekai.sagernet/
 
