@@ -6,6 +6,11 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.5-rc12
+
+* Tun2ray implementation based on LwIP is available (try if gVisor fails)
+* Fixes and Improvements
+
 #### 0.5-rc11
 
 * CloudFlare Warp WireGuard configuration generator
