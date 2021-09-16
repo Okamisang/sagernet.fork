@@ -6,6 +6,40 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.5-rc15
+
+`This release contains many v2ray-core changes, some of which have been submitted upstream for review.`
+
+**Override destination option**
+
+Disabled by default.
+
+When disabled, `AsIs` can get the same accuracy as `IPIfNonMatch` and do not require the server to resolve the domain name again before connecting.
+
+**Resolve destination option**
+  
+Resolve the domain (if sniffed), and overwrite the destination address based on the IPv6 Mode selection result.
+
+Note: There is no fallback to other ips when the connection fails.
+
+**Concurrent DNS queries**
+  
+If you fill in more than one DNS, core will query concurrently.
+
+**Endpoint independent mapping**
+
+Fixed UDP address mapping behavior.
+
+This does not work for v*ess and mux.cool; for plugins, it depends on the plugin itself.
+
+**Fixes**
+
+* Fixed Local DNS queries getting fallback to Remote DNS
+* Fixed LwIP not work
+* Other fixes
+  
+Note: you should always use gVisor if available.
+
 #### 0.5-rc14
 
 * Fixes
