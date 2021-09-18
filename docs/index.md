@@ -6,6 +6,11 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.5-rc16
+
+* Performance improvements
+* Updated v2ray-core to v4.42.2
+
 #### 0.5-rc15
 
 `This release contains many v2ray-core changes, some of which have been submitted upstream for review.`
@@ -43,7 +48,7 @@ Note: you should always use gVisor if available.
 #### 0.5-rc14
 
 * Fixes
-* Performance improves
+* Performance improvements
 
 #### 0.5-rc13
 
