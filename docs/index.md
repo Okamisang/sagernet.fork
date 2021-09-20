@@ -6,6 +6,12 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.5-rc18
+
+* Removed read subscription timeout
+* Mux settings will be applied to naiveproxy
+* Fixes
+
 #### 0.5-rc17
 
 * Fixed a serious bug in the previous version caused by updating to AGP7
@@ -26,8 +32,9 @@ Disabled by default.
 When disabled, `AsIs` can get the same accuracy as `IPIfNonMatch` and do not require the server to resolve the domain name again before connecting.
 
 **Resolve destination option**
-  
-Resolve the domain (if sniffed), and overwrite the destination address based on the IPv6 Mode selection result.
+
+Resolve the domain (if sniffed), and overwrite the destination address based on the IPv6 Mode
+selection result.
 
 Note: There is no fallback to other ips when the connection fails.
 
