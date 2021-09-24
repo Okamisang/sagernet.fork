@@ -2,7 +2,7 @@
 
 Release | Vendor | Download
 ------- | ------ | ----
-0.5-rc18 | GitHub Release | [Release][app-release]
+0.5-rc19 | GitHub Release | [Release][app-release]
 - | Google Play | [SagerNet - Play Store][app-play]
 0.2-rc01 | F-Droid | [SagerNet - F-Droid][app-fdroid]
 
@@ -22,7 +22,7 @@ Release | Vendor | Download
 
 Release | Vendor | Download
 ------- | ------ | ----
-92.0.4515.107-2 | GitHub Release | [Release][naive-release]
+94.0.4606.61-1 | GitHub Release | [Release][naive-release]
 - | Google Play | [NaïveProxy Plugin - Play Store][naive-play]
 - | F-Droid | [NaïveProxy Plugin - F-Droid][naive-fdroid]
 
@@ -73,7 +73,7 @@ Release | Vendor | Download
 20210424-4 | GitHub Release | [Release][wireguard-release]
 - | Google Play | [WireGuard Plugin - Play Store][wireguard-play]
 
-[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.5-rc18
+[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.5-rc19
 [app-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet
 [app-fdroid]: https://f-droid.org/packages/io.nekohasekai.sagernet/
 
@@ -81,7 +81,7 @@ Release | Vendor | Download
 [trojan-go-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet.plugin.trojan_go
 [trojan-go-fdroid]: https://f-droid.org/packages/io.nekohasekai.sagernet.plugin.trojan_go/
 
-[naive-release]: https://github.com/SagerNet/SagerNet/releases/tag/naive-plugin-92.0.4515.107-2
+[naive-release]: https://github.com/SagerNet/SagerNet/releases/tag/naive-plugin-94.0.4606.61-1
 [naive-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet.plugin.naive
 [naive-fdroid]: https://f-droid.org/packages/io.nekohasekai.sagernet.plugin.naive/
 
