@@ -6,6 +6,12 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.5-rc21
+
+* Fixes
+
+#### 0.5-rc20
+
 * Optimized performance for gVisor mode
 * Parsing clash's websocket early data configuration
 * Sending shadowsocks handshake with payload if available [#1292](https://github.com/v2fly/v2ray-core/pull/1292)
