@@ -6,6 +6,16 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.5-rc22
+
+* Performance improvements
+* Option to disable profile traffic statistics
+* Filter support for OOCv1 owner field
+* Fixes
+
+* Updated v2ray-core to v4.43.0
+* Updated shadowsocks-rust to v1.12.0-alpha
+
 #### 0.5-rc21
 
 * Fixes
