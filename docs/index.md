@@ -6,7 +6,12 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
-#### 0.5-rc22
+#### 0.5-rc24
+
+* Fixes
+* Support specifying port in UDP DNS
+
+#### 0.5-rc23
 
 * Performance improvements
 * Option to disable profile traffic statistics
