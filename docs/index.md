@@ -6,6 +6,17 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.6-beta01
+
+* Based on v2ray-core v5 (mainline)
+* Multi-observation support: allows customization of test link and time interval for each balancer
+* Performance improvements
+* Snell removed
+* NaiveProxy's `--insecure-concurrency` option support
+
+Note: This release contains numerous unpublished and unexplained upstream and internal changes, and
+some features may not work as expected. If possible, thanks for your testing.
+
 #### 0.5-rc25
 
 * Fixes and Improvements
@@ -33,7 +44,8 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 * Optimized performance for gVisor mode
 * Parsing clash's websocket early data configuration
-* Sending shadowsocks handshake with payload if available [#1292](https://github.com/v2fly/v2ray-core/pull/1292)
+* Sending shadowsocks handshake with payload if
+  available [#1292](https://github.com/v2fly/v2ray-core/pull/1292)
 * Fixes
 
 #### 0.5-rc19
@@ -64,7 +76,8 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 Disabled by default.
 
-When disabled, `AsIs` can get the same accuracy as `IPIfNonMatch` and do not require the server to resolve the domain name again before connecting.
+When disabled, `AsIs` can get the same accuracy as `IPIfNonMatch` and do not require the server to
+resolve the domain name again before connecting.
 
 **Resolve destination option**
 
@@ -74,7 +87,7 @@ selection result.
 Note: There is no fallback to other ips when the connection fails.
 
 **Concurrent DNS queries**
-  
+
 If you fill in more than one DNS, core will query concurrently.
 
 **Endpoint independent mapping**
@@ -88,7 +101,7 @@ This does not work for v*ess and mux.cool; for plugins, it depends on the plugin
 * Fixed Local DNS queries getting fallback to Remote DNS
 * Fixed LwIP not work
 * Other fixes
-  
+
 Note: you should always use gVisor if available.
 
 #### 0.5-rc14
