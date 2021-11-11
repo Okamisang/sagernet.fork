@@ -6,6 +6,10 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.6-beta05
+
+* Fixes and Improvements
+
 #### 0.6-beta04
 
 * Added QUIC sniffer
