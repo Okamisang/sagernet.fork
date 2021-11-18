@@ -6,6 +6,17 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.6-beta06
+
+* New default routing rules
+* FakeDNS removed
+* Fixed compatibility with ssr none cipher
+* Fixes and Improvements
+
+For technical reasons, removing FakeDNS fixes a upstream memory leak bug and improves performance (
+when it is not enabled).  
+As well, we think FakeDNS doesn't make much sense at all.
+
 #### 0.6-beta05
 
 * Fixes and Improvements
