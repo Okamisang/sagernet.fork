@@ -2,7 +2,7 @@
 
 Release | Vendor | Download
 ------- | ------ | ----
-0.6-beta06 | GitHub Release | [Release][app-release]
+0.6-beta08 | GitHub Release | [Release][app-release]
 - | Google Play | [SagerNet - Play Store][app-play] 
 - | F-Droid | [SagerNet - F-Droid][app-fdroid]
 
@@ -22,7 +22,7 @@ Release | Vendor | Download
 
 Release | Vendor | Download
 ------- | ------ | ----
-95.0.4638.54-3 | GitHub Release | [Release][naive-release]
+96.0.4664.45-1 | GitHub Release | [Release][naive-release]
 - | Google Play | [NaïveProxy Plugin - Play Store][naive-play]
 - | F-Droid | [NaïveProxy Plugin - F-Droid][naive-fdroid]
 
@@ -64,16 +64,7 @@ Release | Vendor | Download
 0.8.5-1 | GitHub Release | [Release][hysteria-release]
 - | Google Play | [Hysteria Plugin - Play Store][hysteria-play]
 
----
-
-#### WireGuard Plugin
-
-Release | Vendor | Download
-------- | ------ | ----
-20210424-4 | GitHub Release | [Release][wireguard-release]
-- | Google Play | [WireGuard Plugin - Play Store][wireguard-play]
-
-[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.6-beta06
+[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.6-beta08
 [app-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet
 [app-fdroid]: https://f-droid.org/packages/io.nekohasekai.sagernet/
 
@@ -81,7 +72,7 @@ Release | Vendor | Download
 [trojan-go-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet.plugin.trojan_go
 [trojan-go-fdroid]: https://f-droid.org/packages/io.nekohasekai.sagernet.plugin.trojan_go/
 
-[naive-release]: https://github.com/SagerNet/SagerNet/releases/tag/naive-plugin-95.0.4638.54-3
+[naive-release]: https://github.com/SagerNet/SagerNet/releases/tag/naive-plugin-96.0.4664.45-1
 [naive-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet.plugin.naive
 [naive-fdroid]: https://f-droid.org/packages/io.nekohasekai.sagernet.plugin.naive/
 
@@ -98,6 +89,3 @@ Release | Vendor | Download
 
 [hysteria-release]: https://github.com/SagerNet/SagerNet/releases/tag/hysteria-plugin-0.8.5-1
 [hysteria-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet.plugin.hysteria
-
-[wireguard-release]: https://github.com/SagerNet/SagerNet/releases/tag/wireguard-plugin-95.0.4638.54-1
-[wireguard-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet.plugin.wireguard
