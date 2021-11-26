@@ -6,6 +6,11 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.6-beta09
+
+* Added hysteria ALPN option
+* Updated v2ray-core, gVisor and WireGuard
+
 #### 0.6-beta08
 
 * Fixes and Improvements
