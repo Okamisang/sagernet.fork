@@ -6,6 +6,11 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.6-beta10
+
+* Removed foreground detector due to play policy
+* Fixes and Improvements
+
 #### 0.6-beta09
 
 * Added hysteria ALPN option
