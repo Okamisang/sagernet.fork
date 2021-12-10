@@ -6,6 +6,11 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.6-beta11
+
+* Fixes and Improvements
+* Updated v2ray-core, gVisor and WireGuard
+
 #### 0.6-beta10
 
 * Removed foreground detector due to play policy
