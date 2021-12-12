@@ -6,6 +6,12 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.6-beta12
+
+* Added stun NAT checker
+* Added support for hysteria sharing link invented by Shadowrocket
+* Fixes and Improvements
+
 #### 0.6-beta11
 
 * Fixes and Improvements
