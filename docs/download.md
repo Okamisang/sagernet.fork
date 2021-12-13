@@ -2,7 +2,7 @@
 
 Release | Vendor | Download
 ------- | ------ | ----
-0.6-beta12 | GitHub Release | [Release][app-release]
+0.6-beta13 | GitHub Release | [Release][app-release]
 - | Google Play | [SagerNet - Play Store][app-play] 
 - | F-Droid | [SagerNet - F-Droid][app-fdroid]
 

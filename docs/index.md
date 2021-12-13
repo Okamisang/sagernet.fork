@@ -6,6 +6,10 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.6-beta13
+
+* Fixes
+
 #### 0.6-beta12
 
 * Added stun NAT checker
