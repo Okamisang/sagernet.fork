@@ -6,6 +6,11 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.6-beta14
+
+* Replace LwIP TUN with new system stack implementation
+* Fixes and Improvements
+
 #### 0.6-beta13
 
 * Fixes
