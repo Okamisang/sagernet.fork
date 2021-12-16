@@ -6,6 +6,15 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.6-beta15
+
+* Improved system TUN
+* New option to disable DNS record expire (TTL)
+* New default DNS and hosts
+* DNS behavior change: continue to the next DNS server when an error is received
+* Hysteria faketcp protocol support (root required)
+* Fixes and Improvements
+
 #### 0.6-beta14
 
 * Replace LwIP TUN with new system stack implementation
