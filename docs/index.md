@@ -10,6 +10,11 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 * Fixes
 
+#### 0.6-beta19
+
+* Add network type and wifi ssid to routing rule
+* Fixes and Improvements
+
 #### 0.6-beta15
 
 * Improved system TUN
