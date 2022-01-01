@@ -6,7 +6,12 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
-#### 0.6-beta17
+#### 0.6-rc01
+
+* Fixed nat test not going through proxy under gVisor and proxy only mode
+* Removed alterId
+
+#### 0.6-beta20
 
 * Fixes
 
