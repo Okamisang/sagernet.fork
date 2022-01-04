@@ -6,6 +6,13 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.6-rc04
+
+* Add backup function
+* Add hysteria wechat-video mode
+* Add option to use local dns as direct dns
+* Fixes
+
 #### 0.6-rc03
 
 * Fixes and Improvements
