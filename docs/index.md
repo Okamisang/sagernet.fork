@@ -6,6 +6,25 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.7-beta01
+
+* Merge v2ray-core v5.0.2
+* Add packetEncoding **1** option to vmess/vless
+* Add option **2** to switch root CA certificates provider
+* Add tasker support
+* Fix NAT test not handling incorrect source address error
+
+**1.** Endpoint independent mapping NAT (aka full cone NAT) support:
+
+- `None`: disabled, uses less traffic.
+- `Packet`: packetaddr protocol, need `v2fly/v2ray-core v5.0.2+` or `SagerNet/v2ray-core`.
+- `XUDP`: xudp protocol, need `XTLS/Xray-core` or `SagerNet/v2ray-core`.
+
+**2.** The built-in [Mozilla Included](https://wiki.mozilla.org/CA/Included_Certificates) root CA certificate trust list with Chinese certificates removed is now used by
+default, or you can switch back to the system list.
+
+Note: [SagerNet/v2ray-core](https://github.com/SagerNet/v2ray-core) is a generic v2ray-core fork that includes useful features and optimizations, and is now officially released.
+
 #### 0.6-rc04
 
 * Add backup function
@@ -106,8 +125,8 @@ As well, we think FakeDNS doesn't make much sense at all.
 * Snell removed
 * NaiveProxy's `--insecure-concurrency` option support
 
-Note: This release contains numerous unpublished and unexplained upstream and internal changes, and
-some features may not work as expected. If possible, thanks for your testing.
+Note: This release contains numerous unpublished and unexplained upstream and internal changes, and some features may
+not work as expected. If possible, thanks for your testing.
 
 #### 0.5-rc25
 
@@ -136,8 +155,7 @@ some features may not work as expected. If possible, thanks for your testing.
 
 * Optimized performance for gVisor mode
 * Parsing clash's websocket early data configuration
-* Sending shadowsocks handshake with payload if
-  available [#1292](https://github.com/v2fly/v2ray-core/pull/1292)
+* Sending shadowsocks handshake with payload if available [#1292](https://github.com/v2fly/v2ray-core/pull/1292)
 * Fixes
 
 #### 0.5-rc19
@@ -168,13 +186,12 @@ some features may not work as expected. If possible, thanks for your testing.
 
 Disabled by default.
 
-When disabled, `AsIs` can get the same accuracy as `IPIfNonMatch` and do not require the server to
-resolve the domain name again before connecting.
+When disabled, `AsIs` can get the same accuracy as `IPIfNonMatch` and do not require the server to resolve the domain
+name again before connecting.
 
 **Resolve destination option**
 
-Resolve the domain (if sniffed), and overwrite the destination address based on the IPv6 Mode
-selection result.
+Resolve the domain (if sniffed), and overwrite the destination address based on the IPv6 Mode selection result.
 
 Note: There is no fallback to other ips when the connection fails.
 
@@ -268,8 +285,8 @@ Note: you should always use gVisor if available.
 * Option to enable traffic statistics (disabled by default)
 * Fixes
 
-Note: According to user reports, this traffic statistics feature adds some power consumption, so an
-option is provided to choose from.
+Note: According to user reports, this traffic statistics feature adds some power consumption, so an option is provided
+to choose from.
 
 #### 0.5-beta03
 
@@ -386,11 +403,9 @@ option is provided to choose from.
 
 #### 0.3-rc01
 
-Warning: It's an incompatible update, backup your profiles and subscriptions (Clearing data is
-recommended).
+Warning: It's an incompatible update, backup your profiles and subscriptions (Clearing data is recommended).
 
-* Experimental traffic forwarder (alternative to tun2socks, with better performance and more
-  options)
+* Experimental traffic forwarder (alternative to tun2socks, with better performance and more options)
 * Added ICMP Ping / URL Test
 * Option to reorder profiles by delay
 * Option to switch method for bypass LAN
