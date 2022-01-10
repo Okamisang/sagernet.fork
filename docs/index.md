@@ -1,10 +1,37 @@
-# SagerNet
+# SagerNet`
 
 The universal proxy toolchain for Android, written in Kotlin.
 
 [![](https://count.getloli.com/get/@nekohasekai?theme=rule34)](https://github.com/SagerNet/SagerNet)
 
 ### Changelog
+`
+#### 0.7-beta03
+
+* Fix ShadowsockR udp error
+* Fix Shadowsocks stream cipher udp error 
+* Add MTU settings for VPN and WireGuard
+* Ping proxy support **1**
+
+**1**:
+
+In addition to WireGuard, requires a server of `SagerNet/v2ray-core v5.0.3+`, and a protocol that supports UDP. (can be used as a front proxy to support other protocols)
+
+To enable ping support on the server, add the `ping` JSON item:
+
+```json
+{
+  "ping": {
+    // For more settings, check out the README
+  }
+}
+```
+
+Client behavior is controlled by routing; if there are no results and the default outbound is not WireGuard, ping will return directly.
+
+To route all ping requests, use `ping` as the `protocol` value.
+
+Pay attention to the routing order, if `outbound` is `Bypass`, the ping will be sent directly.
 
 #### 0.7-beta02
 
@@ -24,10 +51,11 @@ The universal proxy toolchain for Android, written in Kotlin.
 - `Packet`: packetaddr protocol, need `v2fly/v2ray-core v5.0.2+` or `SagerNet/v2ray-core`.
 - `XUDP`: xudp protocol, need `XTLS/Xray-core` or `SagerNet/v2ray-core`.
 
-**2.** The built-in [Mozilla Included](https://wiki.mozilla.org/CA/Included_Certificates) root CA certificate trust list with Chinese certificates removed is now used by
-default, or you can switch back to the system list.
+**2.** The built-in [Mozilla Included](https://wiki.mozilla.org/CA/Included_Certificates) root CA certificate trust list
+with Chinese certificates removed is now used by default, or you can switch back to the system list.
 
-Note: [SagerNet/v2ray-core](https://github.com/SagerNet/v2ray-core) is a generic v2ray-core fork that includes useful features and optimizations, and is now officially released.
+Note: [SagerNet/v2ray-core](https://github.com/SagerNet/v2ray-core) is a generic v2ray-core fork that includes useful
+features and optimizations, and is now officially released.
 
 #### 0.6-rc04
 
