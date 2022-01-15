@@ -5,11 +5,64 @@ The universal proxy toolchain for Android, written in Kotlin.
 [![](https://count.getloli.com/get/@nekohasekai?theme=rule34)](https://github.com/SagerNet/SagerNet)
 
 ### Changelog
-`
+
+#### 0.7-beta04
+
+* Rewritten dns part of v2ray-core **1**
+* Auto mtu option **2**
+* Shadowsocks experiment ReducedIvHeadEntropy option **3**
+* Fixes and Improvements
+
+**1**:
+
+Added DNS Over TLS and QUIC support, example:
+
+```
+tls://dns.google
+quic://dns.adguard.com
+```
+
+All available DNS schemes:
+
+```
+tcp
+tcp+local
+udp
+udp+local
+tls
+tls+local
+https
+https+local
+quic
+quic+local
+```
+
+Multiple DNS filled in now will query concurrently and share the cache.
+
+Not yet tested on a large scale, but you can help.
+
+**2**:
+
+Use the MTU of the upstream network interface, enabled by default.
+
+The VPN will automatically reload if the upstream MTU changes.
+
+**3**:
+
+This is a pull request for the experiment on GFWReport's proposal for a countermeasure for the random stream like protocol blocking behaviour observed on GFW.
+
+According to the gfw.report et al's research, when connecting to the impacted VPSs, GFW is likely to block binary protocols unless it is an HTTP, TLS, or SSH connection, or the first 6 bytes of data sent from client to server can be interpreted as printable characters. This suggests in addition to TLS encryption, HTTP Header, this kind of censorship can also be temporarily evaded by only sending printable characters in the first 6 bytes of data.
+
+This option request V2Ray to remap the first 6 bytes of IV to printable characters.
+
+Enabling it have security implications. It is possible for anyone on the privileged network path to identify the protocol when this experiment is enabled.
+
+See also:
+- https://github.com/v2fly/v2ray-core/pull/1552
+- https://github.com/shadowsocks/shadowsocks-rust/commit/53aab484f8daba6f5cee6896b034af943cc3d406
+
 #### 0.7-beta03
 
-* Fix ShadowsockR udp error
-* Fix Shadowsocks stream cipher udp error 
 * Add MTU settings for VPN and WireGuard
 * Ping proxy support **1**
 
