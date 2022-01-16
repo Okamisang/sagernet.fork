@@ -2,7 +2,7 @@
 
 | Release    | Vendor         | Download                          |
 |------------|----------------|-----------------------------------|
-| 0.7-beta05 | GitHub Release | [Release][app-release]            |
+| 0.7-beta06 | GitHub Release | [Release][app-release]            |
 | -          | Google Play    | [SagerNet - Play Store][app-play] |
 | -          | F-Droid        | [SagerNet - F-Droid][app-fdroid]  |
 
@@ -49,11 +49,11 @@
 
 #### Brook Plugin
 
-| Release  | Vendor         | Download                                |
-|----------|----------------|-----------------------------------------|
-| 20210601 | GitHub Release | [Release][brook-release]                |
-| -        | Google Play    | [Brook Plugin - Play Store][brook-play] |
-| -        | F-Droid        | [Brook Plugin - F-Droid][brook-fdroid]  |
+| Release    | Vendor         | Download                                |
+|------------|----------------|-----------------------------------------|
+| 20210601-1 | GitHub Release | [Release][brook-release]                |
+| -          | Google Play    | [Brook Plugin - Play Store][brook-play] |
+| -          | F-Droid        | [Brook Plugin - F-Droid][brook-fdroid]  |
 
 ---
 
@@ -64,7 +64,7 @@
 | 0.9.3   | GitHub Release | [Release][hysteria-release]                   |
 | -       | Google Play    | [Hysteria Plugin - Play Store][hysteria-play] |
 
-[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.7-beta05
+[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.7-beta06
 
 [app-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet
 
@@ -92,7 +92,7 @@
 
 [rb-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet.plugin.relaybaton
 
-[brook-release]: https://github.com/SagerNet/SagerNet/releases/tag/brook-plugin-20210601
+[brook-release]: https://github.com/SagerNet/SagerNet/releases/tag/brook-plugin-20210601-1
 
 [brook-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet.plugin.brook
 
