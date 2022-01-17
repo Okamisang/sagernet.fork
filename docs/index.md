@@ -1,10 +1,19 @@
-# SagerNet`
+# SagerNet
 
 The universal proxy toolchain for Android, written in Kotlin.
 
 [![](https://count.getloli.com/get/@nekohasekai?theme=rule34)](https://github.com/SagerNet/SagerNet)
 
 ### Changelog
+
+#### 0.7-rc01
+
+* Bug fixes
+* Ping proxy now supports returning ICMP Unreachable **1**
+
+**1**:
+
+Requires [SagerNet/v2ray-core](https://github.com/SagerNet/v2ray-core) v5.0.4+ or routed to a freedom outbound (Bypass Route)
 
 #### 0.7-beta06
 
