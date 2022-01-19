@@ -6,6 +6,15 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.7-rc02
+
+* Bug fixes
+* Handling non-IP DNS query support **1**
+
+**1**:
+
+For local DNS, Android 10+ is required for raw query.
+
 #### 0.7-rc01
 
 * Bug fixes
@@ -13,7 +22,8 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 **1**:
 
-Requires [SagerNet/v2ray-core](https://github.com/SagerNet/v2ray-core) v5.0.4+ or routed to a freedom outbound (Bypass Route)
+Requires [SagerNet/v2ray-core](https://github.com/SagerNet/v2ray-core) v5.0.4+ or routed to a freedom outbound (Bypass
+Route)
 
 #### 0.7-beta06
 
@@ -66,15 +76,21 @@ The VPN will automatically reload if the upstream MTU changes.
 
 **3**:
 
-This is a pull request for the experiment on GFWReport's proposal for a countermeasure for the random stream like protocol blocking behaviour observed on GFW.
+This is a pull request for the experiment on GFWReport's proposal for a countermeasure for the random stream like
+protocol blocking behaviour observed on GFW.
 
-According to the gfw.report et al's research, when connecting to the impacted VPSs, GFW is likely to block binary protocols unless it is an HTTP, TLS, or SSH connection, or the first 6 bytes of data sent from client to server can be interpreted as printable characters. This suggests in addition to TLS encryption, HTTP Header, this kind of censorship can also be temporarily evaded by only sending printable characters in the first 6 bytes of data.
+According to the gfw.report et al's research, when connecting to the impacted VPSs, GFW is likely to block binary
+protocols unless it is an HTTP, TLS, or SSH connection, or the first 6 bytes of data sent from client to server can be
+interpreted as printable characters. This suggests in addition to TLS encryption, HTTP Header, this kind of censorship
+can also be temporarily evaded by only sending printable characters in the first 6 bytes of data.
 
 This option request V2Ray to remap the first 6 bytes of IV to printable characters.
 
-Enabling it have security implications. It is possible for anyone on the privileged network path to identify the protocol when this experiment is enabled.
+Enabling it have security implications. It is possible for anyone on the privileged network path to identify the
+protocol when this experiment is enabled.
 
 See also:
+
 - https://github.com/v2fly/v2ray-core/pull/1552
 - https://github.com/shadowsocks/shadowsocks-rust/commit/53aab484f8daba6f5cee6896b034af943cc3d406
 
@@ -85,7 +101,8 @@ See also:
 
 **1**:
 
-In addition to WireGuard, requires a server of `SagerNet/v2ray-core v5.0.3+`, and a protocol that supports UDP. (can be used as a front proxy to support other protocols)
+In addition to WireGuard, requires a server of `SagerNet/v2ray-core v5.0.3+`, and a protocol that supports UDP. (can be
+used as a front proxy to support other protocols)
 
 To enable ping support on the server, add the `ping` JSON item:
 
@@ -97,7 +114,8 @@ To enable ping support on the server, add the `ping` JSON item:
 }
 ```
 
-Client behavior is controlled by routing; if there are no results and the default outbound is not WireGuard, ping will return directly.
+Client behavior is controlled by routing; if there are no results and the default outbound is not WireGuard, ping will
+return directly.
 
 To route all ping requests, use `ping` as the `protocol` value.
 
