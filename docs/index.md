@@ -6,7 +6,15 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
-#### 0.7-rc03
+#### 0.7-rc05
+
+* Bug fixes
+* Updated android gradle plugin
+* Updated dependencies
+* Refined database
+* Add android 12 dataExtractionRules
+
+#### 0.7-rc04
 
 * Bug fixes
 
