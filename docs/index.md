@@ -6,6 +6,16 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.7-rc06
+
+* Always show stop button in notification
+* Added profile switch dialog to notification
+* Added option to hold cpu wakelock
+* Added cpu wakelock switcher to notification
+* Enabled dns routing by default
+* Removed hysteria disableMtuDiscovery option
+* Bug fixes
+
 #### 0.7-rc05
 
 * Bug fixes
