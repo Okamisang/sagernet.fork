@@ -6,6 +6,10 @@ The universal proxy toolchain for Android, written in Kotlin.
 
 ### Changelog
 
+#### 0.7-rc07
+
+* Bug fixes
+
 #### 0.7-rc06
 
 * Always show stop button in notification

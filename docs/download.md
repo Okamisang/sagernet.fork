@@ -2,7 +2,7 @@
 
 | Release  | Vendor         | Download                          |
 |----------|----------------|-----------------------------------|
-| 0.7-rc06 | GitHub Release | [Release][app-release]            |
+| 0.7-rc07 | GitHub Release | [Release][app-release]            |
 | -        | Google Play    | [SagerNet - Play Store][app-play] |
 | -        | F-Droid        | [SagerNet - F-Droid][app-fdroid]  |
 
@@ -22,7 +22,7 @@
 
 | Release        | Vendor         | Download                                     |
 |----------------|----------------|----------------------------------------------|
-| 97.0.4692.71-2 | GitHub Release | [Release][naive-release]                     |
+| 98.0.4758.80-1 | GitHub Release | [Release][naive-release]                     |
 | -              | Google Play    | [NaïveProxy Plugin - Play Store][naive-play] |
 | -              | F-Droid        | [NaïveProxy Plugin - F-Droid][naive-fdroid]  |
 
@@ -64,7 +64,7 @@
 | 0.9.6   | GitHub Release | [Release][hysteria-release]                   |
 | -       | Google Play    | [Hysteria Plugin - Play Store][hysteria-play] |
 
-[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.7-rc06
+[app-release]: https://github.com/SagerNet/SagerNet/releases/tag/0.7-rc07
 
 [app-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet
 
@@ -76,7 +76,7 @@
 
 [trojan-go-fdroid]: https://f-droid.org/packages/io.nekohasekai.sagernet.plugin.trojan_go/
 
-[naive-release]: https://github.com/SagerNet/SagerNet/releases/tag/naive-plugin-97.0.4692.71-2
+[naive-release]: https://github.com/SagerNet/SagerNet/releases/tag/naive-plugin-98.0.4758.80-1
 
 [naive-play]: https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet.plugin.naive
 
