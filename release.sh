@@ -1,7 +1,7 @@
 #!/bin/bash
 
 mkdocs build
-echo "okamisang.github.io" > site/CNAME
+echo "non" > site/CNAME
 mkdocs gh-deploy -m "{sha}" --ignore-version --dirty || true
 cd site
 git fetch origin gh-pages
