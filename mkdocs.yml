@@ -1,8 +1,8 @@
 site_name: SagerNet
-site_url: https://sagernet.org/
+site_url: https://sagernet.fork/
 repo_url: https://github.com/SagerNet/SagerNet
 edit_uri: ""
-repo_name: SagerNet
+repo_name: SagerNet.fork
 site_description: The universal proxy toolchain for Android
 site_author: nekohasekai
 copyright: CC BY-SA 4.0
