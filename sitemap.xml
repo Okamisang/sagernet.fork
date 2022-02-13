@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://okamisang.github.io/sagernet.fork/</loc>
+         <lastmod>2022-02-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://okamisang.github.io/sagernet.fork/configuration/</loc>
+         <lastmod>2022-02-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://okamisang.github.io/sagernet.fork/download/</loc>
+         <lastmod>2022-02-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://okamisang.github.io/sagernet.fork/group/</loc>
+         <lastmod>2022-02-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://okamisang.github.io/sagernet.fork/plugin/</loc>
+         <lastmod>2022-02-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://okamisang.github.io/sagernet.fork/route/</loc>
+         <lastmod>2022-02-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
